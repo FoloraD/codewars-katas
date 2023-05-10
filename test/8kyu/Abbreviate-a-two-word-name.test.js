@@ -1,4 +1,4 @@
-const abbrevName = require("../../codewars-katas/src/8kyu/Abbreviate-a-two-word-name.js");
+const abbrevName = require("../../src/8kyu/Abbreviate-a-two-word-name.js");
 const chai = require('chai');
 const assert = chai.assert;
 
