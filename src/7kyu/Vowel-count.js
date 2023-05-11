@@ -9,7 +9,7 @@ eg should return 5 for 'abracadabra
 
 function getCount(str){
     //find the count of vowels
-    const count = str.match(/[aeiou]/gi).length;
+    const count = (str.match(/[aeiou]/gi) || []).length;
 
     // return the number of vowels
     return count
@@ -24,7 +24,7 @@ module.exports = getCount
 
 3) /[aeiou]/gi checks for all the vowels (case-insensitive) in a string. 
 
-4) str.match(/[aeiou]/gi); matches a string against a regular expression
+4) (str.match(/[aeiou]/gi) || []); matches a string against a regular expression or if no vowels present returns an empty array.
 
 5) length property gives the number of vowels 
 
