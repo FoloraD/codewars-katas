@@ -1,4 +1,4 @@
-const getCount = require("/Users/folora.duang-arop/codewars-katas/src/7kyu/Vowel-count.js");
+const getCount = require("/../../codewars-katas/src/7kyu/Vowel-count.js");
 const chai = require('chai');
 const assert = chai.assert;
 
