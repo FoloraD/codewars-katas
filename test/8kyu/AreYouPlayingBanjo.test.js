@@ -1,6 +1,7 @@
+const areYouPlayingBanjo = require("../../src/8kyu/AreYouPlayingBanjo.js");
 const chai = require("chai");
 const assert = chai.assert;
-chai.config.truncateThreshold=0;
+//chai.config.truncateThreshold=0;
 
 describe("Basic tests", () => {
   it("Testing for fixed tests", () => {
@@ -9,5 +10,5 @@ describe("Basic tests", () => {
     assert.strictEqual(areYouPlayingBanjo("Ringo"), "Ringo plays banjo");
     assert.strictEqual(areYouPlayingBanjo("bravo"), "bravo does not play banjo");
     assert.strictEqual(areYouPlayingBanjo("rolf"), "rolf plays banjo");
-    })
-  })
+    });
+  });
