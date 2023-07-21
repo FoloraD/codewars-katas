@@ -1,4 +1,4 @@
-const doubleInteger = require('../../src/8kyu/YouCantCodeUnderPressure#1.js')
+const doubleInteger = require('../../src/8kyu/YouCantCodeUnderPressure.js')
 const Test = require('@codewars/test-compat');
 
 describe("Tests", () => {
