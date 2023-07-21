@@ -1,4 +1,4 @@
-const getCount = require("../../src/7kyu/Vowel-count.js");
+const getCount = require("../../src/7kyu/VowelCount.js");
 const chai = require('chai');
 const assert = chai.assert;
 
