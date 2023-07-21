@@ -1,3 +1,4 @@
+const Kata = require('../../src/8kyu/VolumeOfACuboid')
 const { assert } = require('chai')
 
 describe("Tests", () => {
