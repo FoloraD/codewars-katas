@@ -1,4 +1,5 @@
 const Test = require('@codewars/test-compat');
+const basicOp = require("../../src/8kyu/BasicMathematicalOperations");
 
 describe("Tests", () => {
   it("test", () => {
