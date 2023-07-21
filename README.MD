@@ -17,6 +17,7 @@ Codewars is an online platform that provides coding challenges for software deve
 * [Calculate average](src/8kyu/CalculateAverage.js)
 * [Sum Arrays](src/8kyu/SumArrays.js)
 * [Volume of a Cuboid](src/8kyu/VolumeOfACuboid.js)
+* [You Can't Code Under Pressure #1](src/8kyu/YouCan'tCodeUnderPressure#1.js)
 
 #### 7 kyu
 * [Vowel Count](src/7kyu/VowelCount.js)
