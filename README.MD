@@ -22,4 +22,5 @@ Codewars is an online platform that provides coding challenges for software deve
 #### 7 kyu
 * [Vowel Count](src/7kyu/VowelCount.js)
 * [Find the Capitals](src/7kyu/FindTheCapitals.js)
+* [Transpose two strings in an array](src/7kyu/TransposeTwoStringsInAnArray.js)
 
