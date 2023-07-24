@@ -25,3 +25,30 @@ function basicOp(operation, value1, value2) {
 }
 
 module.exports = basicOp;
+
+//Refactored solution
+/*
+function basicOp(operation, value1, value2)
+{
+  // Code
+switch(operation) {
+  case '+': 
+    // code block
+    return value1 + value2
+    break;
+  case '-':
+    // code block
+    return value1 - value2
+    break;
+  case '*':
+    return value1 * value2
+    break;
+  case '/':
+    return value1 / value2
+    
+  default:
+    return
+}
+
+}
+*/
