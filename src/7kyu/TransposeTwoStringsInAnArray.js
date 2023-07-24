@@ -2,7 +2,9 @@
 
 /* 
 DESCRIPTION:
-You will be given an array that contains two strings. Your job is to create a function that will take those two strings and transpose them, so that the strings go from top to bottom instead of left to right.
+You will be given an array that contains two strings. 
+Your job is to create a function that will take those two strings and transpose them, 
+so that the strings go from top to bottom instead of left to right.
 
 e.g. transposeTwoStrings(['Hello','World']);
 
@@ -13,6 +15,7 @@ e o
 l r  
 l l  
 o d
+
 A few things to note:
 
 There should be one space in between the two characters
@@ -21,7 +24,15 @@ If one string is longer than the other, there should be a space where the charac
 */
 
 function transposeTwoStrings (array) {
-	return '';
+    let result = [];
+    let len = Math.max(array[0].length, array[1].length);
+
+    for(let i = 0; i < len; i++){
+        let column = (array[0][i] || " ") + " " + (array[1][i] || " ");
+        result.push(column);
+    }
+    return result.join("\n");
+ 
 }
 
 module.exports = transposeTwoStrings
